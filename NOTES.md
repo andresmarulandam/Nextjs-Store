@@ -37,3 +37,16 @@
 1. Se puede cambiar el titulo en layout.tsx
 2. Todo elemento que se agregue al layout.tsx de la raiz aparecerá en toda la aplicación
 3. También puedes crear layout a nivel carpeta
+
+## NAVEGATION
+
+# La navegación se maneja con el componente Link que nos trae nextjs.
+
+1. En el layout de src/app: <ul>
+   <Link href="/">
+   <li>Home</li>
+   </Link>
+   <Link href="/store">
+   <li>Store</li>
+   </Link>
+   </ul>
