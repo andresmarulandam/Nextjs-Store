@@ -50,3 +50,18 @@
    <li>Store</li>
    </Link>
    </ul>
+
+## Manejo de parámetros en rutas en Next.js SEGMENTOS DINAMICOS
+
+# Cuando por ejemplo cuando se necesita anidar muchas cosas:
+
+localhost:3000/store/tecnology/mobile/iphone/iphone15/white
+
+1. Se maneja colocandole tres puntos antes del nombre: [...categories]
+
+2. Pero si quiero que ese segmento también maneje la generalidad de store se colcoa dentro de doble corchete: [[...categories]]
+
+3. Si queremos manejar los searchparams por ejemplo:
+   localhost:3000/store/tecnology/mobile/iphone/iphone15/white?socialmedia=twitter
+   Se coloca en la interface de page.tsx:
+   searchParams?: string;
