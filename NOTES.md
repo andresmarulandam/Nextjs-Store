@@ -99,3 +99,8 @@ localhost:3000/store/tecnology/mobile/iphone/iphone15/white
 
 1. Dentro de sass crear un archivo llamado globals.sass
 2. En el layout principal: import 'app/sass/globals.sass';
+
+## ARCHIVOS ESTATICOS
+
+1. Pueden ser imagenes personalizadas, pdf, videos, canciones..
+2. Irán en la carpeta public
