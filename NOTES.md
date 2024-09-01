@@ -94,3 +94,8 @@ localhost:3000/store/tecnology/mobile/iphone/iphone15/white
 2. Colocar la configuración en next.config.mjs cambiando el path a /src/sass y colocando prependData: `@import "main.sass"`
 3. Crear carpeta src/sass y dentro los archivos main.sass, variables.sass
 4. Pasar a cada componente: import styles from './Hero.module.sass';
+
+## ESTILOS GLOBALES
+
+1. Dentro de sass crear un archivo llamado globals.sass
+2. En el layout principal: import 'app/sass/globals.sass';
