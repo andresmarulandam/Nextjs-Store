@@ -78,3 +78,12 @@ localhost:3000/store/tecnology/mobile/iphone/iphone15/white
 1. Crear carpeta components y dentro una carpeta llamada shared donde irán las carpetas de todos los componentes reutilizables como botones, header y demas.
 2. Crear dentro de shared y carpeta llamada Header y crear el componente Header.
 3. Dentro de componentes crear otra carpeta llamada Home, que serán los componentes usados en la pagina de Home.
+
+## ESTILOS
+
+# Se trabajan por medio de css modules. El scope es corto así que no estará disponible en toda la aplicación.
+
+1. Dentro de la carpeta del componente se crea el archivo, por ejemplo: Hero.module.css
+
+2. Luego se import en el componente como styles from...
+3. Se pasa en el componente como className ={styles.Hero}
