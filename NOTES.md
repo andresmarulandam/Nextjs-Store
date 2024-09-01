@@ -4,6 +4,7 @@
 
 1.  Start a nextjs project: npx create-next-app@latest
 2.  Limpiar page.tsx y dejar solo el <main>
+3.  Eliminar page module y globals css
 
 # Configuración de endpoints con Postman
 
@@ -65,3 +66,15 @@ localhost:3000/store/tecnology/mobile/iphone/iphone15/white
    localhost:3000/store/tecnology/mobile/iphone/iphone15/white?socialmedia=twitter
    Se coloca en la interface de page.tsx:
    searchParams?: string;
+
+## CLIENT COMPONENT Y SERVER COMPONENT
+
+# "use client": dinamicos, useEffect, animación, llamados a API
+
+# server component: Presentacionales, solo presentan información
+
+## ESTRUCTURA:
+
+1. Crear carpeta components y dentro una carpeta llamada shared donde irán las carpetas de todos los componentes reutilizables como botones, header y demas.
+2. Crear dentro de shared y carpeta llamada Header y crear el componente Header.
+3. Dentro de componentes crear otra carpeta llamada Home, que serán los componentes usados en la pagina de Home.
