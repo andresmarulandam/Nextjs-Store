@@ -87,3 +87,10 @@ localhost:3000/store/tecnology/mobile/iphone/iphone15/white
 
 2. Luego se import en el componente como styles from...
 3. Se pasa en el componente como className ={styles.Hero}
+
+## ESTILOS CON SASS
+
+1. npm install --save-dev sass
+2. Colocar la configuración en next.config.mjs cambiando el path a /src/sass y colocando prependData: `@import "main.sass"`
+3. Crear carpeta src/sass y dentro los archivos main.sass, variables.sass
+4. Pasar a cada componente: import styles from './Hero.module.sass';
